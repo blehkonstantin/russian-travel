@@ -1,0 +1,41 @@
+.lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px;
+  justify-self: center;
+}
+
+@media (max-width: 1280px) { /* НОУТ */
+  .lead__title {
+    max-width: 720px;
+    font-size: 6rem;
+    line-height: 104%;
+  }
+}
+
+@media (max-width: 1024px) { /* ПЛАНШЕТ */
+  .lead__title {
+    max-width: 720px;
+    font-size: 6rem;
+    line-height: 104%;
+  }
+}
+
+@media (max-width: 767px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+  .lead__title {
+    max-width: 288px;
+    font-size: 2.5rem;
+    line-height: 110%;
+  }
+}
+
+@media (max-width: 425px) { /* МОБИЛКИ */
+  .lead__title {
+    max-width: 288px;
+    font-size: 2.5rem;
+    line-height: 110%;
+  }
+}

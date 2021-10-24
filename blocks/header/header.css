@@ -1,0 +1,36 @@
+.header {
+  display: grid;
+  justify-content: space-around;
+  
+  
+}
+
+@media (max-width: 1280px) { /* НОУТ */
+    .header {
+      grid-template-columns: calc(100% - 96px);
+      padding-top: 28px;
+    }
+  }
+    
+@media (max-width: 1024px) { /* ПЛАНШЕТ */
+  .header {
+    grid-template-columns: calc(100% - 96px);
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+  .header {
+    grid-template-columns: calc(100% - 48px);
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 425px) { /* МОБИЛКИ */
+  .header {
+    
+    grid-template-columns: calc(100% - 32px);
+    padding-top: 16px;
+    
+  }
+}

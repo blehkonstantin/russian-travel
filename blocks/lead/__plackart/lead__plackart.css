@@ -1,0 +1,33 @@
+.lead__plackart {
+  margin: 0px;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+@media (max-width: 1280px) { /* НОУТ */
+  .lead__plackart {
+    max-width: calc(100vw - 296px);
+    padding-top: 64px;
+  }
+}
+
+@media (max-width: 1024px) { /* ПЛАНШЕТ */
+  .lead__plackart {
+    max-width: calc(100vw - 96px);
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+  .lead__plackart {
+      max-width: 100vw;
+      padding-top: 56px;
+  }
+}
+
+@media (max-width: 426px) { /* МОБИЛКИ */
+  .lead__plackart {
+      max-width: 100vw;
+      padding-top: 40px;
+  }
+}

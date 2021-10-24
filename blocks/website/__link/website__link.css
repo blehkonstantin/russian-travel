@@ -1,0 +1,33 @@
+.website__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 122%;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1280px) { /* НОУТ */
+  .website__link {
+    
+  }
+}
+
+@media (max-width: 1024px) { /* ПЛАНШЕТ */
+  .website__link {
+    
+  }
+}
+
+@media (max-width: 767px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+  .website__link {
+    
+  }
+}
+
+@media (max-width: 425px) { /* МОБИЛКИ */
+  .website__link {
+    
+  }
+}

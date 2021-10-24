@@ -1,0 +1,56 @@
+.footer__copyright {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px;
+  
+}
+
+@media (max-width: 1800px) { /* НОУТ */
+  .footer__copyright {
+    max-width: 186px;
+    font-size: 0.875rem;
+    line-height: 114%;
+    justify-self: right;
+    grid-column: 1;
+    grid-row: 1;
+
+  }
+}
+
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
+  .footer__copyright {
+    max-width: 186px;
+    font-size: 0.875rem;
+    line-height: 114%;
+    justify-self: right;
+    grid-column: 1;
+    grid-row: 1;
+
+  }
+}
+
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+  .footer__copyright {
+    max-width: 186px;
+    font-size: 0.875rem;
+    line-height: 114%;
+    justify-self: right;
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 767px) { /* МОБИЛКИ */
+  .footer__copyright {
+    max-width: 186px;
+    font-size: 0.875rem;
+    line-height: 100%;
+    text-align: left;
+    grid-row: 2;
+    
+  }
+}
