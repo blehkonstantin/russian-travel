@@ -2,7 +2,9 @@
   display: grid;
   justify-content: space-around;
   grid-gap: 26px 0px;
-  grid-template-rows: auto auto;
+  grid-template-rows: min-content min-content;
+  justify-content: left;
+  align-content: flex-start;
 }
 
 @media (max-width: 1800px) { /* НОУТ */

@@ -8,32 +8,32 @@
   text-transform: uppercase;
   color: #FFFFFF;
   text-align: left;
+  margin: 0px;
+  padding-top: 8px;
 }
 
 @media (max-width: 1280px) { /* НОУТ */
   .lead__caption {
-    max-width: calc(100vw - 296px);
-    padding-left: 148px;
+    max-width: calc(100% - 296px);
   }
 }
 
 @media (max-width: 1024px) { /* ПЛАНШЕТ */
   .lead__caption {
-    max-width: calc(100vw - 96px);
-    padding-left: 48px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .lead__caption {
-      max-width: 100vw;
-      padding-left: 24px;
+    max-width: 100%;
+    padding-left: 24px;
   }
 }
 
 @media (max-width: 426px) { /* МОБИЛКИ */
   .lead__caption {
-      max-width: 100vw;
-      padding-left: 16px;
+    max-width: 100%;
+    padding-left: 16px;
   }
 }

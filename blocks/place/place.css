@@ -7,8 +7,9 @@
   .place {
     padding-top: 80px;
     grid-template-columns: auto minmax(456px, max-content);
-    grid-template-rows: min-content auto;
+    grid-template-rows: min-content min-content;
     grid-gap: 48px 40px;
+
   }
 }
 
@@ -16,7 +17,7 @@
   .place {
     padding-top: 80px;
     grid-template-columns: auto minmax(456px, max-content);
-    grid-template-rows: min-content auto;
+    grid-template-rows: min-content min-content;
     grid-gap: 48px 32px;
   }
 }
@@ -25,7 +26,7 @@
   .place {
     padding-top: 73px;
     grid-template-columns: auto minmax(352px, max-content);
-    grid-template-rows: min-content auto;
+    grid-template-rows: min-content min-content;
     grid-gap: 48px 28px;
   }
 }
