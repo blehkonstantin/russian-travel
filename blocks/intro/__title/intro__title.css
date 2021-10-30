@@ -14,20 +14,6 @@
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
-  .intro__title {
-    font-size: 3.375rem;
-    line-height: 107%;
-  }
-}
-
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .intro__title {
-    font-size: 3.375rem;
-    line-height: 107%;
-  }
-}
-
 @media (max-width: 767px) { /* МОБИЛКИ */
   .intro__title {
     font-size: 2rem;

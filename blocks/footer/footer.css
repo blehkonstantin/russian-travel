@@ -2,7 +2,7 @@
   display: grid;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (max-width: 1800px) {
   .footer {
     padding-top: 92px;
     padding-bottom: 24px;
@@ -12,20 +12,19 @@
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .footer {
     padding-top: 92px;
   }
 }
 
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { 
   .footer {
-    
     padding-top: 88px;
   }
 }
 
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .footer {
     padding-left: 16px;
     grid-template-columns: max-content;

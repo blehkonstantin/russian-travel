@@ -9,7 +9,7 @@
   z-index: 10;
 }
 
-@media (max-width: 1900px) { /* НОУТ */
+@media (max-width: 1900px) { 
   .cover__title {
     max-width: 560px;
     font-size: 4.5rem;
@@ -17,23 +17,7 @@
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
-  .cover__title {
-    max-width: 560px;
-    font-size: 4.5rem;
-    line-height: 106%;
-  }
-}
-
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .cover__title {
-    max-width: 560px;
-    font-size: 4.5rem;
-    line-height: 106%;
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .cover__title {
     max-width: 288px;
     font-size: 2rem;

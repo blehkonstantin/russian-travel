@@ -2,37 +2,11 @@
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 1rem;
+    line-height: 163%;
     text-align: left;
     color: #FFFFFF;
     margin: 0px auto 0px auto;
     padding-top: 40px;
     
-}
-
-@media (max-width: 1800px) { /* НОУТ */
-  .intro__text {
-    font-size: 1rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
-  .intro__text {
-    font-size: 1rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .intro__text {
-    font-size: 1rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
-  .intro__text {
-    font-size: 1rem;
-    line-height: 163%;
-  }
 }

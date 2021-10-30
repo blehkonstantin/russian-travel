@@ -14,7 +14,6 @@
 @media (max-width: 1279px) { /* ПЛАНШЕТ */
   .intro {
     grid-template-columns: calc(100% - 96px);
-    margin-top: 92px;
   }
 }
 

@@ -8,14 +8,7 @@
     justify-content: space-around;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
-  .place__title {
-    font-size: 4.5rem;
-    line-height: 106%;
-  }
-}
-
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1800px) { 
   .place__title {
     font-size: 4.5rem;
     line-height: 106%;

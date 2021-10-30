@@ -2,39 +2,10 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 1rem;
+  line-height: 163%;
   color: #FFFFFF;
   margin: 0px;
   justify-self: center;
   text-align: left;
-}
-
-/* надо прописать отступы между параграфами и общи отступ перед блоком, возможно через дополнительную вложенность текстового блока*/
-
-@media (max-width: 1800px) { /* НОУТ */
-  .place__paragraph {
-    font-size: 1.125rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
-  .place__paragraph {
-
-    font-size: 1.125rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .place__paragraph {
-    font-size: 1rem;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
-  .place__paragraph {
-    font-size: 1rem;
-    line-height: 163%;
-  }
 }

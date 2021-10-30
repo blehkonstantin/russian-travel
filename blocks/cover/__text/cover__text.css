@@ -11,24 +11,13 @@
   max-width: 100%;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (max-width: 1800px) { 
   .cover__text {
     grid-gap: 32px 0px;
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
-  .cover__text {
-  }
-}
-
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .cover__text {
-    
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .cover__text {
     grid-gap: 16px 0px;
   }

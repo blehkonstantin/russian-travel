@@ -5,30 +5,21 @@
   justify-self: center;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (max-width: 1800px) { 
   .lead__plackart {
     max-width: 100%;
     padding-top: 64px;
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .lead__plackart {
-    max-width: 100%;
     padding-top: 56px;
   }
 }
 
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 767px) { 
   .lead__plackart {
-      max-width: 100%;
-      padding-top: 56px;
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
-  .lead__plackart {
-      max-width: 100%;
       padding-top: 40px;
   }
 }

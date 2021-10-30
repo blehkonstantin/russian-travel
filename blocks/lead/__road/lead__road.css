@@ -5,30 +5,27 @@
   justify-self: center;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (max-width: 1800px) { 
   .lead__road {
     max-width: 100%;
     padding-top: 154px;
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .lead__road {
-    max-width: 100%;
     padding-top: 141px;
   }
 }
 
-@media  (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media  (max-width: 1023px) { 
   .lead__road {
-      max-width: 100%;
       padding-top: 126px;
   }
 }
 
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .lead__road {
-      max-width: 100%;
       padding-top: 70px;
   }
 }

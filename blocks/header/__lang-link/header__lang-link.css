@@ -1,34 +1,14 @@
 .header__lang-link {
   font-family: "Inter", Arial, sans-serif;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
   margin: 0px;
   color: #ffffff;
 }
 
 @media (max-width: 1800px) {
   .header__lang-link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 1279px) {
-  .header__lang-link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 28px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .header__lang-link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
     font-size: 1.5rem;
     line-height: 28px;
   }
@@ -36,9 +16,6 @@
 
 @media (max-width: 767px) {
   .header__lang-link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 400;
     font-size: 1.125rem;
     line-height: 20px;
   }

@@ -5,28 +5,21 @@
   
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (max-width: 1800px) { 
   .lead {
     padding-top: 56px;
     grid-template-columns: calc(100% - 296px);
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .lead {
     padding-top: 48px;
     grid-template-columns: calc(100% - 96px);
   }
 }
 
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
-  .lead {
-    padding-top: 48px;
-    grid-template-columns: 100%;
-  }
-}
-
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 1023px) { 
   .lead {
     padding-top: 48px;
     grid-template-columns: 100%;

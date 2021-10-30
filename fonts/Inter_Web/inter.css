@@ -160,6 +160,7 @@ Usage:
     html { font-family: 'Inter var', sans-serif; }
   }
 */
+/*
 @font-face {
   font-family: 'Inter var';
   font-weight: 100 900;
@@ -175,7 +176,7 @@ Usage:
   font-style: italic;
   font-named-instance: 'Italic';
   src: url("fonts/Inter Web/Inter-italic.var.woff2") format("woff2");
-}
+} */
 
 
 /* --------------------------------------------------------------------------
