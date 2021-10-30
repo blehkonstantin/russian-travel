@@ -8,7 +8,7 @@
   justify-self: center;
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .lead__title {
     max-width: 720px;
     font-size: 6rem;
@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .lead__title {
     max-width: 720px;
     font-size: 6rem;
@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 767px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .lead__title {
     max-width: 288px;
     font-size: 2.5rem;
@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 425px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .lead__title {
     max-width: 288px;
     font-size: 2.5rem;

@@ -5,28 +5,28 @@
   
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
     .header {
       grid-template-columns: calc(100% - 96px);
       padding-top: 28px;
     }
   }
     
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .header {
     grid-template-columns: calc(100% - 96px);
     padding-top: 28px;
   }
 }
 
-@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .header {
     grid-template-columns: calc(100% - 48px);
     padding-top: 28px;
   }
 }
 
-@media (max-width: 425px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .header {
     
     grid-template-columns: calc(100% - 32px);

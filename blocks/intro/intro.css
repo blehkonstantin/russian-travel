@@ -4,28 +4,28 @@
   justify-content: space-around;
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .intro {
     grid-template-columns: calc(100% - 296px);
     margin-top: 92px;
   }
 }
 
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .intro {
     grid-template-columns: calc(100% - 96px);
     margin-top: 92px;
   }
 }
 
-@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .intro {
     grid-template-columns: calc(100% - 48px);
     margin-top: 88px;
   }
 }
 
-@media (max-width: 425px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .intro {
     grid-template-columns: calc(100% - 32px);
     margin-top: 64px;

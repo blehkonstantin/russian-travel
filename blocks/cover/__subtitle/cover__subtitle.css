@@ -9,7 +9,7 @@
   z-index: 10;
 }
 
-@media (max-width: 1900px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .cover__subtitle {
     max-width: 360px;
     font-size: 1.125rem;

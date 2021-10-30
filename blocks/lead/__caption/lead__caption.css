@@ -12,28 +12,24 @@
   padding-top: 8px;
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .lead__caption {
-    max-width: calc(100% - 296px);
   }
 }
 
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .lead__caption {
-    max-width: calc(100% - 96px);
   }
 }
 
-@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .lead__caption {
-    max-width: 100%;
     padding-left: 24px;
   }
 }
 
-@media (max-width: 426px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .lead__caption {
-    max-width: 100%;
     padding-left: 16px;
   }
 }

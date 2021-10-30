@@ -36,7 +36,7 @@
 
 @media (max-width: 767px) { /* МОБИЛКИ */
   .links {
-    grid-template-columns: auto ;
+    grid-template-columns: auto;
     grid-template-rows: repeat(5, auto);
     grid-gap: 32px 0px;
   }

@@ -2,30 +2,31 @@
   margin: 0px;
   grid-row: 3;
   grid-column: 1;
+  justify-self: center;
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .lead__plackart {
     max-width: 100%;
     padding-top: 64px;
   }
 }
 
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .lead__plackart {
     max-width: 100%;
     padding-top: 56px;
   }
 }
 
-@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .lead__plackart {
       max-width: 100%;
       padding-top: 56px;
   }
 }
 
-@media (max-width: 426px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .lead__plackart {
       max-width: 100%;
       padding-top: 40px;

@@ -30,7 +30,7 @@
     padding-left: 16px;
     grid-template-columns: max-content;
     grid-template-rows: repeat(2, max-content);
-    grid-gap: 48px 0px; 
+    grid-gap: 48px 0px;
     padding-top: 64px;
     padding-bottom: 24px;
     justify-content: left;

@@ -3,7 +3,7 @@
   grid-gap: 12px 0px;
 }
 
-@media (max-width: 1900px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .website {
     grid-template-columns: 100%;
     justify-content: left;

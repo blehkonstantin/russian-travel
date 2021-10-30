@@ -9,7 +9,7 @@
     
 }
 
-@media (max-width: 1280px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .lead__subtitle {
     max-width: 640px;
     font-size: 1.875rem;
@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 1024px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { /* ПЛАНШЕТ */
   .lead__subtitle {
     max-width: 640px;
     font-size: 1.875rem;
@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 768px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
   .lead__subtitle {
     max-width: 640px;
     font-size: 1.875rem;
@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 425px) { /* МОБИЛКИ */
+@media (max-width: 767px) { /* МОБИЛКИ */
   .lead__subtitle {
     max-width: 288px;
     font-size: 1rem;

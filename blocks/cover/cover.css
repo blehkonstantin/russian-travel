@@ -8,23 +8,29 @@
   .cover {
     margin-top: 92px;
     grid-template-columns: calc(100% - 96px);
+    grid-template-rows: 900px;
   }
 }
 
 @media (max-width: 1279px) { /* ПЛАНШЕТ */
   .cover {
     grid-template-columns: 100%;
+    grid-template-rows: 739px;
   }
 }
 
 @media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ    под вопросом*/
   .cover {
     margin-top: 90px;
+    grid-template-columns: 100%;
+    grid-template-rows: 639px;
   }
 }
 
 @media (max-width: 767px) { /* МОБИЛКИ */
   .cover {
     margin-top: 66px;
+    grid-template-columns: 100%;
+    grid-template-rows: 479px;
   }
 }

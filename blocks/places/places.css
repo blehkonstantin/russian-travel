@@ -8,6 +8,7 @@
   .places {
     margin-top: 12px;
     grid-template-columns: calc(100% - 296px);
+    grid-gap: 80px 0px;
   }
 }
 
@@ -22,6 +23,7 @@
   .places {
     margin-top: 15px;
     grid-template-columns: calc(100% - 48px);
+    grid-gap: 73px 0px;
   }
 }
 
@@ -29,5 +31,6 @@
   .places {
     margin-top: 14px;
     grid-template-columns: 100%;
+    grid-gap: 50px 0px;
   }
 }

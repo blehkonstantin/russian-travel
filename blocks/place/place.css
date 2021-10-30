@@ -3,9 +3,8 @@
   justify-content: space-around;
 }
 
-@media (max-width: 1900px) { /* НОУТ */
+@media (max-width: 1800px) { /* НОУТ */
   .place {
-    padding-top: 80px;
     grid-template-columns: auto minmax(456px, max-content);
     grid-template-rows: min-content min-content;
     grid-gap: 48px 40px;
@@ -15,7 +14,6 @@
 
 @media (max-width: 1279px) { /* ПЛАНШЕТ */
   .place {
-    padding-top: 80px;
     grid-template-columns: auto minmax(456px, max-content);
     grid-template-rows: min-content min-content;
     grid-gap: 48px 32px;
@@ -24,7 +22,6 @@
 
 @media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ    под вопросом*/
   .place {
-    padding-top: 73px;
     grid-template-columns: auto minmax(352px, max-content);
     grid-template-rows: min-content min-content;
     grid-gap: 48px 28px;
@@ -33,7 +30,6 @@
 
 @media (max-width: 767px) { /* МОБИЛКИ */
   .place {
-    padding-top: 50px;
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, max-content);
     grid-gap: 32px 0px;
