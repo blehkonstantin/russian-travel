@@ -6,6 +6,7 @@
     margin: 0px;
     display: grid;
     justify-content: space-around;
+    text-align: left;
 }
 
 @media (max-width: 1800px) { 
@@ -27,6 +28,5 @@
     font-size: 2rem;
     line-height: 109%;
     grid-template-columns: calc(100% - 32px);
-    text-align: center;
   }
 }

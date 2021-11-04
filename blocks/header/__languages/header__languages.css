@@ -3,8 +3,9 @@
   grid-template-columns: max-content max-content;
   grid-template-rows: max-content;
   gap: 0px 18px;
-  align-content: end;
+  align-content: flex-start;
   grid-column: 1;
   grid-row: 1;
   justify-self: end;
+  padding-top: 14px;
 }

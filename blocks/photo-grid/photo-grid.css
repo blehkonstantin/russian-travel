@@ -33,7 +33,7 @@
   .photo-grid {
     grid-template-columns: calc(100% - 32px);
     grid-template-rows: repeat(12, max-content);
-    grid-gap: 16px 0px;
+    grid-gap: 12px 0px;
     padding-top: 64px;
   }
 }

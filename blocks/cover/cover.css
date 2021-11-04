@@ -29,6 +29,6 @@
 @media (max-width: 767px) { 
   .cover {
     margin-top: 66px;
-    grid-template-rows: 479px;
+    grid-template-rows: 200px;
   }
 }

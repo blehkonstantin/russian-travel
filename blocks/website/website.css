@@ -13,7 +13,7 @@
 
 @media (max-width: 767px) { 
   .website {
-    grid-template-columns: calc(440px - 32px);
+    grid-template-columns: calc(100% - 32px);   /* исправить, на разрешении 320 не влезает в размеры*/
     justify-content: space-around;
   }
 }
