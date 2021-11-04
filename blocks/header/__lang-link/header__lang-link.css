@@ -6,6 +6,7 @@
   margin: 0px;
   color: #ffffff;
   opacity: 1;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
