@@ -6,4 +6,9 @@
   line-height: 122%;
   text-decoration: underline;
   color: #FFFFFF;
+  opacity: 1;
+}
+
+.website__link:hover {
+  opacity: 0.7;
 }
