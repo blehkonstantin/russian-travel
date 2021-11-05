@@ -6,7 +6,7 @@
 
 @media (max-width: 1800px) { 
   .intro {
-    grid-template-columns: minmax(calc(100% - 96px), 928px);
+    grid-template-columns: 984px;
   }
 }
 
