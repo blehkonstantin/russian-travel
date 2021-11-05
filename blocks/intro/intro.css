@@ -19,13 +19,11 @@
 @media (max-width: 1023px) { 
   .intro {
     grid-template-columns: calc(100% - 48px);
-    margin-top: 88px;
   }
 }
 
 @media (max-width: 767px) { 
   .intro {
     grid-template-columns: calc(100% - 32px);
-    margin-top: 64px;
   }
 }
