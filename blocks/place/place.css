@@ -5,7 +5,7 @@
 
 @media (max-width: 1800px) { /* НОУТ */
   .place {
-    grid-template-columns: auto minmax(456px, max-content);
+    grid-template-columns: auto 456px;
     grid-template-rows: min-content min-content;
     grid-gap: 48px 40px;
 
@@ -14,14 +14,14 @@
 
 @media (max-width: 1279px) { /* ПЛАНШЕТ */
   .place {
-    grid-template-columns: auto minmax(456px, max-content);
+    grid-template-columns: auto 456px;
     grid-gap: 48px 32px;
   }
 }
 
 @media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ    под вопросом*/
   .place {
-    grid-template-columns: auto minmax(352px, max-content);
+    grid-template-columns: auto 352px;
     grid-gap: 48px 28px;
   }
 }

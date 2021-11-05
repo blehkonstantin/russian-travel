@@ -5,7 +5,7 @@
     color: #FFFFFF;
     margin: 0px;
     display: grid;
-    justify-content: space-around;
+    
     text-align: left;
 }
 
@@ -28,5 +28,6 @@
     font-size: 2rem;
     line-height: 109%;
     grid-template-columns: calc(100% - 32px);
+    justify-content: space-around;
   }
 }
