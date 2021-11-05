@@ -4,27 +4,26 @@
   justify-content: space-around;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
-  .intro {
-    grid-template-columns: 984px;
-    margin-top: 92px;
-  }
-}
-
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1800px) { 
   .intro {
     grid-template-columns: minmax(calc(100% - 96px), 928px);
   }
 }
 
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1279px) { 
+  .intro {
+    grid-template-columns: minmax(calc(100% - 96px), 928px);
+  }
+}
+
+@media (max-width: 1023px) { 
   .intro {
     grid-template-columns: calc(100% - 48px);
     margin-top: 88px;
   }
 }
 
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .intro {
     grid-template-columns: calc(100% - 32px);
     margin-top: 64px;
