@@ -21,12 +21,14 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в&#160;выпусках новостей, а здесь.</p>
-            <img class="lead__plackart" src="./image/kalegin-michail-179870-unsplash.svg" alt="Спящий на нижней боковой полке плацкартного вагона 
-            человек, укрытый белой простыней, за окном день, на соседнем железнодорожном пути стоят вагоны-цистерны">
-            <img class="lead__road" src="./image/Group_4.svg" alt="Контур железнодорожного маршрута между Псковом и Улан-Удэ, с отметками 
-            промежуточных городов">
-            <p class="lead__caption">ваша полка &mdash; верхняя</p>
+            <figure class="lead__picture">
+                <img class="lead__plackart" src="./image/lead-polka.jpg" alt="Спящий на нижней боковой полке плацкартного вагона 
+                человек, укрытый белой простыней, за окном день, на соседнем железнодорожном пути стоят вагоны-цистерны">
+                <figcaption class="lead__caption">ваша полка &mdash; верхняя</figcaption>
+            </figure>
+            
         </section>
+
         <section class="intro page__intro">
             <h2 class="intro__title">Чего мы там не&#160;видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&#160;только 36% планируют 
@@ -37,11 +39,11 @@
                 20 тысяч километров по&#160;родной стране. Мы выбрали и&#160;описали некоторые интересные места, достойные вашего 
                 отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__point">Часовых поясов 11</li>
-                <li class="intro__point">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__point">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__point">Природных заповедников 105</li>
-                <li class="intro__point">Аэропортов 241</li>
+                <li class="intro__point">Часовых поясов&#160;<p class="intro__point intro__point_normal-font">11</p></li>
+                <li class="intro__point">Объектов природного наследия ЮНЕСКО&#160;<p class="intro__point intro__point_normal-font">12</p></li>
+                <li class="intro__point">Объектов культурного наследия ЮНЕСКО&#160;<p class="intro__point intro__point_normal-font">16</p></li>
+                <li class="intro__point">Природных заповедников&#160;<p class="intro__point intro__point_normal-font">105</p></li>
+                <li class="intro__point">Аэропортов&#160;<p class="intro__point intro__point_normal-font">241</p></li>
             </ul>
         </section>
         <section class="photo-grid">
@@ -63,7 +65,7 @@
         </section>
 
         <section class="places page__places">
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Куршская коса</h3>
                 <div class="place__website website">
                     <p class="website__url-heading">url</p>
@@ -82,10 +84,9 @@
                         суету, окуная в&#160;спокойствие природы и запах стального, прохладного моря.
                     </p>
                 </div>
-                
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Кольский</h3>
                 <div class="place__website website">
                     <p class="website__url-heading">url</p>
@@ -102,9 +103,9 @@
                         накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
                     </p>
                 </div>
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Алтай</h3>
                 <div class="place__website website">
                     <p class="website__url-heading">url</p>
@@ -122,10 +123,9 @@
                         равнинах пасутся косули. И&#160;знаменитые манулы — тоже обитатели Алтайского края.
                     </p>
                 </div>
-                
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Зимний байкал</h3>
                 <div class="place__website website">
                     <p class="website__url-heading">url</p>
@@ -142,10 +142,9 @@
                         поставлен мировой рекорд — 197.011 км/ч.
                     </p>
                 </div>
-                
-            </div>
+            </article>
 
-            <div class="place">
+            <article class="place">
                 <h3 class="place__title">Карелия</h3>
                 <div class="place__website website">
                     <p class="website__url-heading">url</p>
@@ -161,20 +160,17 @@
                         от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                     </p>
                 </div>
-                
-            </div>
+            </article>
         </section>
 
         <section class="cover">
-            <div class="cover__text">
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
                 <h2 class="cover__title">До Байкала «на&#160;собаках»</h2> 
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-            </div>
-            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
-            <div class="cover__background"></div>
-
+            </a>
         </section>
     </main>
+
     <footer class="footer">
         <ul class="footer__links links">
             <li><a class="links__link" href="https://yandex.ru/maps">Карты</a></li>

@@ -8,19 +8,11 @@
 @media (max-width: 1800px) { 
   .lead__plackart {
     width: 100%;
-    padding-top: 64px;
   }
 }
 
 @media (max-width: 1279px) { 
   .lead__plackart {
     max-width: 100%;
-    padding-top: 56px;
-  }
-}
-
-@media (max-width: 767px) { 
-  .lead__plackart {
-      padding-top: 40px;
   }
 }

@@ -3,6 +3,18 @@
   grid-row: 1;
   background: #2a2c2f;
   opacity: 0.3;
+
+  background-image: url("../../../image/cover-trains.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .cover__overlay:hover {
