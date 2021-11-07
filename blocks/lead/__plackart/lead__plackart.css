@@ -5,7 +5,7 @@
   justify-self: center;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1280px) { 
   .lead__plackart {
     width: 100%;
   }

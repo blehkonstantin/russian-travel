@@ -1,7 +1,7 @@
 .cover__overlay {
   background: #2a2c2f;
-  opacity: 1;
-
+  opacity: 0.8;
+  
   background-image: url("../../../image/cover-trains.jpg");
   background-size: cover;
   background-position: center;
@@ -11,8 +11,13 @@
   justify-items: center;
   align-items: center;
   text-decoration: none;
+  grid-row: 1;
+  grid-column: 1;
 }
 
 .cover__overlay:hover {
-  opacity: 0.8;
+  opacity: 0.3;
 }
+}
+
+

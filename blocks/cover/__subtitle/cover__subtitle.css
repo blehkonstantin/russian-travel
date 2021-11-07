@@ -8,13 +8,15 @@
   z-index: 10;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1280px) { 
   .cover__subtitle {
     max-width: 360px;
     font-size: 1.125rem;
     line-height: 122%;
     padding-top: 32px;
     padding-bottom: 245px;
+    opacity: 1;
+    position: relative;
   }
 }
 
@@ -24,6 +26,7 @@
     font-size: 1.125rem;
     line-height: 122%;
     padding-bottom: 195px;
+    padding-top: 32px;
   }
 }
 

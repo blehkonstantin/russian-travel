@@ -8,7 +8,7 @@
   justify-self: center;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 768px) { 
   .lead__title {
     max-width: 720px;
     font-size: 6rem;

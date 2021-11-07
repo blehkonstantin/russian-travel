@@ -5,11 +5,10 @@
     color: #FFFFFF;
     margin: 0px;
     display: grid;
-    
     text-align: left;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1024px) { 
   .place__title {
     font-size: 4.5rem;
     line-height: 106%;

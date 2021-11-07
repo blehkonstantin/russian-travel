@@ -3,27 +3,28 @@
   justify-content: space-around;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (min-width: 1280px) { 
   .places {
     grid-template-columns: 984px;
     grid-gap: 80px 0px;
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .places {
     grid-template-columns: calc(100% - 96px);
+    grid-gap: 80px 0px;
   }
 }
 
-@media (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media (max-width: 1023px) { 
   .places {
     grid-template-columns: calc(100% - 48px);
     grid-gap: 73px 0px;
   }
 }
 
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .places {
     grid-template-columns: 100%;
     grid-gap: 50px 0px;

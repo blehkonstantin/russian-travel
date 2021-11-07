@@ -1,0 +1,19 @@
+.place__website {
+  display: grid;
+  grid-gap: 12px 0px;
+}
+
+@media (min-width: 768px) { 
+  .place__website {
+    grid-template-columns: 100%;
+    justify-content: left;
+    align-content: flex-end;
+  }
+}
+
+@media (max-width: 767px) { 
+  .place__website {
+    grid-template-columns: calc(100% - 32px);   /* исправить, на разрешении 320 не влезает в размеры*/
+    justify-content: space-around;
+  }
+}

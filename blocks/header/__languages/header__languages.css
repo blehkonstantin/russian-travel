@@ -6,6 +6,6 @@
   align-content: flex-start;
   grid-column: 1;
   grid-row: 1;
-  justify-self: end;
+  justify-self: flex-end;
   padding-top: 14px;
 }

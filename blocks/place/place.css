@@ -3,7 +3,7 @@
   justify-content: space-around;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (min-width: 1280px) { /* НОУТ */
   .place {
     grid-template-columns: auto 456px;
     grid-template-rows: min-content min-content;

@@ -12,7 +12,7 @@
   opacity: 0.7;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 768px) { 
   .links__link {
     max-width: 186px;
     font-size: 1rem;

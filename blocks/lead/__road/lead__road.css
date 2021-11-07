@@ -5,7 +5,7 @@
   justify-self: center;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1280px) { 
   .lead__road {
     padding: 154px 23px 0px 23px;
     max-width: calc(100% - 46px);

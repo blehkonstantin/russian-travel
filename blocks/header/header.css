@@ -1,28 +1,30 @@
 .header {
   display: grid;
   justify-content: space-around;
-  
-  
+  max-width: 1184px;
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1024px) { 
     .header {
-      grid-template-columns: calc(100% - 96px);
+      grid-template-columns: minmax(calc(100% - 48px), 1184px);
       padding-top: 28px;
+      padding-left: 48px;
+      padding-right: 48px;
+      justify-self: center;
     }
   }
 
 @media (max-width: 1023px) { 
   .header {
+    padding-top: 28px;
     grid-template-columns: calc(100% - 48px);
+    justify-self: normal;
   }
 }
 
 @media (max-width: 767px) { 
   .header {
-    
     grid-template-columns: calc(100% - 32px);
     padding-top: 16px;
-    
   }
 }

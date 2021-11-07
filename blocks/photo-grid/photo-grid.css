@@ -1,9 +1,11 @@
 .photo-grid {
   display: grid;
   justify-content: center;
+  max-width: 1184px;
+  margin: auto;
 }
 
-@media (max-width: 1800px) { /* НОУТ */
+@media (min-width: 1280px) { 
   .photo-grid {
     grid-template-columns: repeat(4, calc((100% - 96px)/4));
     grid-template-rows: repeat(3, max-content);
@@ -12,15 +14,16 @@
   }
 }
 
-@media (max-width: 1279px) { /* ПЛАНШЕТ */
+@media (max-width: 1279px) { 
   .photo-grid {
     grid-template-columns: repeat(3, calc((100% - 96px)/3));
     grid-template-rows: repeat(4, max-content);
     grid-gap: 14px 14px;
+    padding-top: 92px;
   }
 }
 
-@media  (max-width: 1023px) { /* БИГ МОБИЛКА + ВЕРТ ПЛАНШЕТ */
+@media  (max-width: 1023px) { 
   .photo-grid {
     grid-template-columns: repeat(2, calc((100% - 48px)/2));
     grid-template-rows: repeat(6, max-content);
@@ -29,7 +32,7 @@
   }
 }
 
-@media (max-width: 767px) { /* МОБИЛКИ */
+@media (max-width: 767px) { 
   .photo-grid {
     grid-template-columns: calc(100% - 32px);
     grid-template-rows: repeat(12, max-content);

@@ -4,7 +4,7 @@
   
 }
 
-@media (max-width: 1800px) { 
+@media (min-width: 1280px) { 
   .lead {
     padding-top: 56px;
     grid-template-columns: 984px;
